@@ -8,36 +8,32 @@ ________________________________________________________________________________
 
 # Logistic Map
 
+
 The logistic map is a mathematical model that describes the population growth of a species. It is a discrete-time dynamical system, meaning it evolves over time in discrete steps. The formula for the logistic map is given by:
-\[
-x_{n+1} = r \cdot x_n \cdot (1 - x_n)
-\]
-
-where:
-\[ x_n \] is the population at time \( n \),
-\[ r \] is the growth rate parameter.
-
-\[ x_{n+1} = r \cdot x_n \cdot (1 - x_n) \]
-
-where:
-- \( x_n \) is the population at time \( n \),
-- \( r \) is the growth rate parameter.
+<img width="506" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/c843801d-dbcc-4b79-878d-6d1ac5b3a9b1">
 
 ## Understanding the Formula
 
-1. **Population Update Rule:** The term \( r \cdot x_n \) represents the population's growth potential, where \( r \) is the growth rate and \( x_n \) is the current population.
+1. **Population Update Rule:**
+   <img width="99" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/19faa6e4-c1c5-4f12-a387-9026f915d902">
 
-2. **Logistic Term (1 - \( x_n \)):** This term introduces a self-limiting factor, as it models the resource constraints or competition for resources within the population. It ensures that the population cannot exceed 1.
+    This term represents the population's growth potential.
 
-3. **Iteration:** The formula is iteratively applied, meaning the population at each time step is used as the input for the next iteration, leading to a sequence of population values.
+2. **Logistic Term :**
+   <img width="239" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/5700e2b5-04ea-447e-897f-312cad0809c4">
 
-## Parameter \( r \)
+   This term introduces a self-limiting factor, as it models the resource constraints or competition for resources within the population. It ensures that the population cannot exceed 1.
 
-The parameter \( r \) plays a crucial role in determining the behavior of the logistic map. Different values of \( r \) can lead to various dynamic behaviors, including stable equilibrium, periodic oscillations, and chaotic patterns.
+3.  **Iteration:**
+   The formula is iteratively applied, meaning the population at each time step is used as the input for the next iteration, leading to a sequence of population values.
 
-- For \( 0 < r < 1 \), the population converges to a stable equilibrium.
-- For \( 1 < r < 3 \), the population exhibits periodic oscillations.
-- Beyond \( r = 3 \), the system can enter chaotic behavior, displaying sensitivity to initial conditions.
+## Parameter r 
+
+The parameter  r plays a crucial role in determining the behavior of the logistic map. Different values of r can lead to various dynamic behaviors, including stable equilibrium, periodic oscillations, and chaotic patterns.
+
+- For  0 < r < 1 , the population converges to a stable equilibrium.
+- For 1 < r < 3 , the population exhibits periodic oscillations.
+- Beyond  r = 3 , the system can enter chaotic behavior, displaying sensitivity to initial conditions.
 
 
 ### Example Usage in Python:
@@ -60,27 +56,12 @@ ________________________________________________________________________________
 
 The Hénon map is a discrete-time, two-dimensional dynamical system that exhibits chaotic behavior. The map is defined by the following recursive equations:
 
-\[ x_{n+1} = 1 - a \cdot x_n^2 + y_n \]
-\[ y_{n+1} = b \cdot x_n \]
+<img width="629" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/0848c7ac-f63a-49fa-a35f-d38cb0aaab06">
 
-where:
-- \( (x_n, y_n) \) represents the state of the system at time \( n \),
-- \( a \) and \( b \) are parameters that determine the map's behavior.
 
 ## Understanding the Equations
 
-1. **Quadratic Term \(x_{n+1} = 1 - a \cdot x_n^2\):**
-   - The term \(1 - a \cdot x_n^2\) introduces a quadratic dependence on the current state \(x_n\).
-   - It creates a nonlinear effect, contributing to the chaotic behavior of the system.
-
-2. **Linear Term \(y_{n+1} = b \cdot x_n\):**
-   - The term \(b \cdot x_n\) represents a linear coupling between \(x\) and \(y\).
-   - It provides a simple but effective way to link the evolution of both variables.
-
-3. **Parameter Tuning:**
-   - The parameters \(a\) and \(b\) play a crucial role in determining the dynamics of the Hénon map.
-   - Different values of \(a\) and \(b\) lead to various behaviors, including stable points, periodic orbits, and chaotic trajectories.
-
+<img width="494" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/d75af5c4-d5c0-4e96-91f8-3202bbf0f0d2">
 
 
 ### Example Usage in Python:
