@@ -8,9 +8,13 @@ ________________________________________________________________________________
 
 # Logistic Map
 
+<img width="352" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/7b7e6108-610d-4c26-a1ac-294d1e33e027">
 
-The logistic map is a mathematical model that describes the population growth of a species. It is a discrete-time dynamical system, meaning it evolves over time in discrete steps. The formula for the logistic map is given by:
-<img width="224" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/7d51ec7e-8d9b-4127-8e19-831c436dfc11">
+
+
+The logistic map is a mathematical model that describes the population growth of a species. It is a 2-degree polynomial equation and a discrete-time dynamical system, meaning it evolves over time in discrete steps. The formula for the logistic map is given by:
+
+<img width="335" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/cdbfc01e-b271-45c3-bb1e-83cf48a71126">
 
 
 ## Understanding the Formula
@@ -24,6 +28,10 @@ The parameter  r plays a crucial role in determining the behavior of the logisti
 - For  0 < r < 1 , the population converges to a stable equilibrium.
 - For 1 < r < 3 , the population exhibits periodic oscillations.
 - Beyond  r = 3 , the system can enter chaotic behavior, displaying sensitivity to initial conditions.
+
+# bifurcation diagram for logistic map
+<img width="281" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/cc7d33ad-6c63-4b8f-8016-d7e86a288501">
+
 
 
 ### Example Usage in Python:
@@ -42,9 +50,10 @@ ________________________________________________________________________________
 
 # Hénon Map
 
+<img width="206" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/06fa2770-fd23-4178-926c-706ac2f31d75">
 
 
-The Hénon map is a discrete-time, two-dimensional dynamical system that exhibits chaotic behavior. The map is defined by the following recursive equations:
+The Hénon map is a discrete-time, two-dimensional dynamical system that exhibits chaotic behavior.The Hénon map takes a point (xn, yn) in the plane and maps it to a new point. The map is defined by the following recursive equations:
 
 <img width="629" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/0848c7ac-f63a-49fa-a35f-d38cb0aaab06">
 
