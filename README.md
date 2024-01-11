@@ -9,6 +9,16 @@ ________________________________________________________________________________
 # Logistic Map
 
 The logistic map is a mathematical model that describes the population growth of a species. It is a discrete-time dynamical system, meaning it evolves over time in discrete steps. The formula for the logistic map is given by:
+x 
+n+1
+​
+ =r⋅x 
+n
+​
+ ⋅(1−x 
+n
+​
+ )
 
 \[ x_{n+1} = r \cdot x_n \cdot (1 - x_n) \]
 
