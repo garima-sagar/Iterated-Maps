@@ -9,8 +9,6 @@ def char_to_num(char):
 def num_to_char(num):
     return chr(num + ord('A'))  # Map 0 to 'A', 1 to 'B', ..., 25 to 'Z'
 
-
-
 def encrypt(message, a, b):
     encrypted_message = []
     x, y = 0.1, 0.1  # Initial conditions for the Hénon map
