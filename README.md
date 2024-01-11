@@ -10,22 +10,12 @@ ________________________________________________________________________________
 
 
 The logistic map is a mathematical model that describes the population growth of a species. It is a discrete-time dynamical system, meaning it evolves over time in discrete steps. The formula for the logistic map is given by:
-<img width="506" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/c843801d-dbcc-4b79-878d-6d1ac5b3a9b1">
+<img width="224" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/7d51ec7e-8d9b-4127-8e19-831c436dfc11">
+
 
 ## Understanding the Formula
 
-1. **Population Update Rule:**
-   <img width="99" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/19faa6e4-c1c5-4f12-a387-9026f915d902">
-
-    This term represents the population's growth potential.
-
-2. **Logistic Term :**
-   <img width="239" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/5700e2b5-04ea-447e-897f-312cad0809c4">
-
-   This term introduces a self-limiting factor, as it models the resource constraints or competition for resources within the population. It ensures that the population cannot exceed 1.
-
-3.  **Iteration:**
-   The formula is iteratively applied, meaning the population at each time step is used as the input for the next iteration, leading to a sequence of population values.
+<img width="494" alt="image" src="https://github.com/garima-sagar/Iterated-Maps/assets/145219684/e4846548-1434-47f5-86f3-7287bc4531e2">
 
 ## Parameter r 
 
